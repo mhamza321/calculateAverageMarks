@@ -110,14 +110,7 @@
         let computer = parseFloat(document.querySelector("#computer").value);
         let algebra = parseFloat(document.querySelector("#algebra").value);
         let grammer = parseFloat(document.querySelector("#grammer").value);
-        // if(number%2==0){
-        //     document.querySelector("#result").innerHTML = `${number} is even`;
-        // }else if(number%2 == 1){
-        //     document.querySelector("#result").innerHTML = `${number} is odd`;
-        // }
-        //alert("You entered "+number);
         let avgMarks = (islamiat + pakstudy + english + physics + chemistry + biology + science + computer + algebra + grammer)/10;
-        console.log(avgMarks);
 
         document.querySelector("#result").innerHTML = `Your average marks are ${avgMarks}`;
     }
